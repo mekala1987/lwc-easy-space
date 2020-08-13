@@ -13,7 +13,7 @@ export default class CustomerList extends LightningElement {
 
     @wire(getCustomerList, { sObjectType: '$sobject' })
     wiredCustomerData(value) {
-        console.log(JSON.stringify(value));
+        //console.log(JSON.stringify(value));
         this.wiredRecords = value;
         if (value.error) {
             this.errorMsg = value.error;

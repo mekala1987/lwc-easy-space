@@ -17,7 +17,7 @@ export default class CustomerTile extends NavigationMixin(LightningElement) {
             }
         }).then(url => {
                 this.navRef= url;
-                console.log(this.navRef);
+                //console.log(this.navRef);
         });
         
     }
