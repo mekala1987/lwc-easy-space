@@ -1,0 +1,5 @@
+<design:component >
+    <design:attribute name="recordId" label="Record Id"/>
+    <design:attribute name="sobject" label="Object API Name"/>
+</design:component>
+
